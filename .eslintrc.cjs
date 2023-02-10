@@ -1,3 +1,4 @@
+/* eslint-env node */
 module.exports = {
   env: {
     browser: true,
@@ -14,7 +15,7 @@ module.exports = {
   overrides: [],
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: 'task-cat_facts/tsconfig.json',
+    project: '*/tsconfig.json',
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
